@@ -1,0 +1,22 @@
+/* style.css */
+
+/* Ajuste para barra de navegação transparente */
+.navbar {
+    background-color: transparent !important; /* Fundo transparente */
+}
+
+/* Cor do texto na barra de navegação */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* Cor branca */
+}
+
+/* Ajuste para imagens em tela cheia */
+.container-fluid {
+    padding: 0; /* Remove o padding padrão */
+}
+
+.container-fluid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
